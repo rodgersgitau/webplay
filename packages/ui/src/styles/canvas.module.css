@@ -1,0 +1,25 @@
+.canvas {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+
+  > #canvas-controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5svh;
+    z-index: 999;
+    background: linear-gradient(
+      to right,
+      hsla(0, 0%, 0%, 0.5),
+      hsla(0, 0%, 0%, 0)
+    );
+
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
