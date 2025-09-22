@@ -1,0 +1,9 @@
+{
+    "name": "@valdayne/webplay-eslint-config",
+    "version": "0.1.0",
+    "main": "index.js",
+    "dependencies": {
+        "@eslint/js": "^9.10.0",
+        "typescript-eslint": "^8.4.0"
+    }
+}
